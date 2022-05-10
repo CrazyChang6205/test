@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #C5D8D1;
+}
+header{
+    background-color: #12263A;
+    width: 110%;
+    height:400px;
+    margin: 20px 10px 0px -10px;
+    padding: 20px;
+}
+.idcard{
+    background-color: #06BCC1;
+    border: white solid 5px;
+    border-radius: 100px;
+    width: 30%;
+    margin: 10px 20px 30px 100px;
+    display: inline-block;
+}
+img.head{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    /* 圖片置中 margin 和 display 同時使用才有效，原因不明 */
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+p.idcard_text{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 0px;
+}
+.aboutme{
+    color: white;
+    display: inline-block;
+}
+.assert{
+    color: white;
+    display: inline-block;
+}
+/*技能區*/
+.skill{
+    display: flex;
+    background-color: white;
+    border:10px #8EC0E0 solid;
+    border-radius: 100px;
+}
+.skillbox{
+    float: none;
+    width:49%;
+    padding:20px;
+}
+.subtitle{
+    display: inline;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.submain{
+    display: inline;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.subbar-name{
+    display: inline;
+}
+.subbar-out{
+    position: relative;
+    width: 50%;
+    height: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #8EC0E0;
+    margin-left: 0px;
+}
+.subbar-in{
+    background-color: #8EC0E0;
+    height: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+/*經歷區*/
+.exp{
+    background-color: white;
+    border:10px #8EC0E0 solid;
+    border-radius: 100px;
+}
+.exp-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.exp-school{
+    display: flex;
+    -ms-flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content:center;
+}
+.school-img{
+    width: 200px;
+    height: 200px;
+    margin: 0px 30px;
+}
+.school-name{
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+.exp-box{
+    display: flex;
+    -ms-flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.box-img{
+    width: 30%;
+    border-radius: 30px;
+    margin: 0px 30px;
+}
+.box-text{
+    font-size: large;
+    font-weight: 600;
+    margin-top: 20px;
+}
+/*  */
+footer{
+    background-color: #34435E;
+    width: 110%;
+    height:30px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+}
